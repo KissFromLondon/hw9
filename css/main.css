@@ -93,7 +93,7 @@ header {
 }
 
 .container {
-  height: 540px;
+  height: auto;
   padding-right: 0;
   padding-left: 0;
 }
@@ -290,8 +290,8 @@ header {
 @media (min-width: 768px) {
   .container {
     height: auto;
-    max-width: 748px;
   }
+  
   .container-fluid {
     background-image: url(../img/background-tablet.png);
     height: 700px;
